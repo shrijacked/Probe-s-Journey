@@ -1,0 +1,5 @@
+# No external dependencies required for core implementation
+# Optional for visualization/analysis:
+# numpy
+# matplotlib
+
