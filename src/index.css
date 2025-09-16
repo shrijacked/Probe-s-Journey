@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+/* Starfield background */
+body {
+  background: radial-gradient(ellipse at bottom, #0b1020 0%, #05060f 75%);
+  overflow-x: hidden;
+}
+.starfield, .starfield:after {
+  content: "";
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: transparent url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="3" height="3"><circle cx="1" cy="1" r="1" fill="white" opacity="0.7"/></svg>') repeat;
+  animation: starScroll 120s linear infinite;
+  opacity: 0.12;
+  pointer-events: none;
+}
+.starfield:after {
+  animation-duration: 240s;
+  opacity: 0.08;
+}
+@keyframes starScroll {
+  from { transform: translateY(0); }
+  to { transform: translateY(-2000px); }
+}
+
+/* Success flash */
+.flash-win {
+  box-shadow: 0 0 35px rgba(16,185,129,0.45), inset 0 0 24px rgba(16,185,129,0.25);
+  transition: box-shadow 500ms ease;
+}
