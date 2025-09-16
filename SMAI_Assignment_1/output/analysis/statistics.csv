@@ -1,0 +1,13 @@
+puzzle,algorithm,moves,nodes,time_ms
+puzzle1,DFS,17,37,0.373
+puzzle1,BFS,5,53,0.452
+puzzle1,BestFirst_Manhattan,5,6,0.086
+puzzle1,BestFirst_Enhanced,5,6,0.052
+puzzle2,DFS,8,11,0.107
+puzzle2,BFS,6,28,0.224
+puzzle2,BestFirst_Manhattan,6,9,0.074
+puzzle2,BestFirst_Enhanced,6,9,0.075
+puzzle3,DFS,22,23,0.383
+puzzle3,BFS,6,42,0.406
+puzzle3,BestFirst_Manhattan,6,9,0.073
+puzzle3,BestFirst_Enhanced,6,9,0.076

@@ -1,0 +1,21 @@
+[puzzle1]
+Algorithm: BFS
+Moves: 5
+Nodes: 53
+Time (ms): 0.452
+Solution: UP -> UP -> RIGHT -> RIGHT -> RIGHT
+
+[puzzle2]
+Algorithm: BFS
+Moves: 6
+Nodes: 28
+Time (ms): 0.224
+Solution: RIGHT -> RIGHT -> UP -> RIGHT -> UP -> RIGHT
+
+[puzzle3]
+Algorithm: BFS
+Moves: 6
+Nodes: 42
+Time (ms): 0.406
+Solution: RIGHT -> RIGHT -> UP -> RIGHT -> UP -> RIGHT
+
